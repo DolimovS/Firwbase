@@ -1,0 +1,31 @@
+firebace 
+
+
+1==>https://firebase.google.com/  ga kiriladi va get started  qilinadi
+2==>Create  firebece project  qilinadi yangi preact ochiladi 
+3==>project nomi yoziladi   song project tayyor boladi 
+4==>WEB tallanadi
+5==>project nomi yoziladi
+6==> bizga script beradi bu bizga firebaseni loyihaga ulash uchun ishlatiladi <continu qilib yakunlaymiz 
+7==> loyiha tayyor endi  settengs ga otamiz  project settings ochiladi
+8==>loyihamizda < npm install firebase > kutub xonasini   yuklab olamiz
+9==>firebase varsiyasi tez yangilanadi bu kodlar hammasi 11.0.1 uchun !!!!  npm install firabase@11 bu mahjbuyir shu versiyani yuklab beradi
+10==>liyihamizda src>firebase>comfig.js qilib saqlaymiz 
+
+=================================================================================
+3 dars
+  FIRESTORE DATABASE
+  Cloud firestore
+ 
+1==>Build bolimidan   FIRESTORE DATABASE  ga kiriladi  Create database qilinadi bunda jsonga oxshab malumot olmashinadi
+
+2==>ozizga yaqin location talladani id bosh qaladi 
+3==>boshlash uchun tarif tallanadi ani test yoki product mode test da malum bir muddat dan
+song ochib ketadi 
+4==>start collect  va umimiy nom beriladi song qanday malumotlar bolishi kerakligini toltiramiz
+5==> malumot olish <cloud firestore get collection>deb qidiramiz :get date: dan k 
+	loyihamizdagi  config.js fayliga 
+	:import { getFirestore } from "firebase/firestore";
+	const db = getFirestore(app) tenglaymiz  "exsport qilib qoyiladi"
+	qilamiz
+
