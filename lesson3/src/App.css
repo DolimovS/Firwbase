@@ -1,0 +1,43 @@
+label,
+input{
+    display: block;
+}
+label ,
+button{
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    width: 350px;
+    height: 40px;
+    font-size: 22px;
+    color: gray;
+    padding:0  10px;
+
+
+}
+.add_btn{
+    padding:7px  15px;
+}
+.card{
+    padding: 10px;
+        display: flex;
+    border:1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+.deletes{
+    padding: 7px 12px;
+}
